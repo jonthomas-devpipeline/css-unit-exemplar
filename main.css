@@ -1,0 +1,139 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #8e3b46;
+  color: white;
+  box-sizing: border-box;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+    text-decoration: none;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0px;
+    background-color: #8e3b46;
+    color: white;
+  }
+
+  .navbar-container p {
+    display: inline;
+  }
+
+    .navigation-menu-left {
+      flex-grow: 2;
+      font-weight: bolder;
+      text-decoration: underline overline;
+      font-size: large;
+      margin-left: 1rem;
+    }
+      
+    .navigation-menu-center a {
+      padding: 8px;
+      margin: 8px;
+    }
+      .navigation-menu-center a:hover {
+        text-decoration: none;
+        box-shadow: 0px 3px 5px 0px rgba(224,141,195,.25);
+        background-color: goldenrod;
+        border-radius: 8px;
+        transition: 200ms;
+            }
+
+    .navigation-menu-right {
+      display: flex;
+    }
+
+      .search-bar {
+        border-radius: 16px;
+        height: 24px;
+        width: 90%;
+        padding: 10px 35px 10px 15px;
+        border: none;
+        outline: none;
+      }
+
+      .fa-magnifying-glass {
+        object-fit: cover;
+        color: black;
+        align-self: center;
+        margin-left: -10%;
+      }
+
+.footer {
+  background-color: #1b1b1b;
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 8fr 1fr;
+}
+
+  .footer-company-description {
+    grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    }
+    
+    .footer-company-logo-name {
+      padding-bottom: 1rem;
+    }
+
+      .footer-company-logo-name p {
+        display: inline;
+        font-weight: bolder;
+          font-size: large;
+        text-decoration: underline overline;
+      }
+
+  .footer-contact {
+    grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 2;
+  }
+
+    .footer-contact div {
+      padding: .75em;
+    }
+    .footer-contact p {
+      display: inline;
+    }
+
+  .footer-map {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: end;
+  }
+
+  .footer-copyright {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-start: 3;
+    margin: 0 auto;
+  }
+
+  .footer-copyright p {
+    display: inline;
+  }
