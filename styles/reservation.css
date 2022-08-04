@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../images/pizza.jpg");
+  background-size: cover;
+}
+
+.reservation-form {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  margin: 4em 0px;
+}
+
+.reservation-input {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-items: center;
+  background: white;
+  color: black;
+  font-size: 24px;
+  padding: .5rem 2rem;
+}
+
+.reservation-input-checkbox, .reservation-input-radio {
+  font-size: 18px;
+  padding: 12px; 
+}
+
+
+
+input {
+  padding: .5em 1em;
+}
+
+select {
+  font-size: 18px;
+  padding: 8px;
+}
+
+option {
+  font-size: 18px;
+}
+
+input, textarea {
+  border-radius: 4px;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  border-radius: 12px;
+  padding: 8px 24px;
+  font-size: 24px;
+  font-weight: bold;
+}

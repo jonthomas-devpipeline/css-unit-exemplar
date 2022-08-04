@@ -1,0 +1,223 @@
+.hero-image video {
+  width: 100%;
+}
+
+.internal-navigation-title {
+  text-align: center;
+  text-decoration: overline underline;
+  font-size: 24px;
+}
+
+.internal-navigation-links {
+  background-color: #8e3b46;
+  padding: 2rem;
+  box-shadow: 1px 2px 2px .2;
+}
+
+.internal-navigation-links a {
+  font-size: 24px;
+  color: black;
+  background-color: white;
+    border-color:  black;
+    border-radius: 24px;
+  padding: 8px;
+  box-shadow: 1px 1px 1px 1px
+}
+
+.internal-navigation-links ul {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  background-color: goldenrod;
+}
+
+.internal-navigation-links li {
+transform: rotate(45deg);
+list-style-type: none;
+padding: 0rem .5rem;
+}
+
+.menu-entire {  
+  display: grid;
+    grid-template-columns: 1fr 7fr 7fr 7fr 7fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-auto-rows: auto;
+    justify-content: space-around;
+    gap: 1em 1em;
+    grid-auto-flow: auto;
+    width: 95%;
+  padding: 1em;
+  margin-right: 0;
+  background-color: #8e3b46;
+  color: antiquewhite;
+  border-radius: 8px;
+}
+
+.menu-entire .menu-heading {
+  grid-row-start: 1;
+  grid-row-end: 6;
+  text-align: center;
+  transform: rotate(180deg);
+  line-height: 2rem;
+  font-size: 36px;
+  writing-mode: vertical-rl;
+  border: none;
+  text-decoration: overline underline;
+}
+}
+
+.menu-entire div {
+  background-color: #ffffff;
+  color: #000000;
+  border-left-color:green;
+  border-width: 1rem;
+  padding: 1rem 1rem 3rem 3rem;
+  margin: 1rem;
+  background-color: transparent;
+}
+
+.menu-title {
+  font-weight: 1000;
+  font-size: 36px;
+  ;
+}
+
+.menu-title h2 {
+  background-color: goldenrod;
+}
+
+.appetizers, .pastas, .pizzas, .salads, .desserts, .drinks, .catering {
+  box-shadow: 10px 5px 5px rgba(110, 59, 70), -.5em 0 .4em rgba(110, 59, 70);
+  border-radius: 16px;
+}
+
+.appetizers, .pastas, .pizzas, .salads, .desserts, .drinks, .catering h2 {
+  text-align: center;
+}
+
+.appetizers { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1rem, 10rem;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/mozzsticks.jpg');
+}
+
+  .appetizers .menu-title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+.pastas { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-column-start: 2;
+  grid-column-end: 4;  
+  background-image: url("../images/lasanga.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url('../images/lasanga.jpg');
+  background-size: cover;
+}
+
+
+  .pastas .menu-title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+.pizzas { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url('../images/pizza.jpg');
+
+}
+
+div .menu-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}  
+
+.salads { 
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url('../images/salad.jpg');
+  background-size: cover;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  box-shadow: 10px 5px 5px rgba(110, 59, 70), -.5em 0 .4em rgba(110, 59, 70)
+}
+
+.desserts { 
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url('../images/cake.jpg');
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-size: cover;
+  box-shadow: 10px 5px 5px rgba(110, 59, 70), -.5em 0 .4em rgba(110, 59, 70)
+}
+
+.drinks { 
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url('../images/lemonade.jpg');
+  grid-column-start: 4;
+  grid-column-end: 5;
+  background-size: cover;
+  box-shadow: 10px 5px 5px rgba(110, 59, 70), -.5em 0 .4em rgba(110, 59, 70)
+}
+
+.catering { 
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url('../images/mozzsticks.jpg');
+  grid-column-start: 5;
+  grid-column-end: 6;
+  background-size: cover;
+  box-shadow: 10px 5px 5px rgba(110, 59, 70), -.5em 0 .4em rgba(110, 59, 70)
+}
+
+.catering th {
+  color: goldenrod;
+}
+
+  .menu-entire .menu-description {
+    color: antiquewhite;
+    font-size: x-large;
+    padding: 3%;
+  }
+  
+  .menu-entire .menu-items {
+    background-color: #8e3b46e0;
+    color: goldenrod;
+    font-size:xx-large;
+    padding: 12px;
+    border-style: dashed;
+    border-right: none;
+    border-left: none;
+    border-width: 2px;
+    border-color: #f0f0f0a0;
+    margin: 12px 0px;
+  }
+
+.menu-entire .menu-items li {
+  padding: 5px;
+  color: goldenrod;
+}
+
+  .salads .menu-description, .desserts .menu-description, .drinks .menu-description {
+    color: antiquewhite;
+    font-size:large;
+  }
+
+  .salads .menu-items, .desserts .menu-items, .drinks .menu-items {
+    background-color: #8e3b46e0;
+    color: antiquewhite;
+    font-size:x-large;
+  }
+
+  .catering .menu-catering-table {background-color: #8e3b46;
+    color: antiquewhite;
+    font-size:medium;
+    border-style: dashed;
+    border-color: #f0f0f0a0;
+    border-left: none;
+    border-right: none;
+  }
